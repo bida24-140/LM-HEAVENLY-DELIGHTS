@@ -24,8 +24,8 @@ body {
   flex-direction: column;
 }
 .container img {
-  width: 300px;     /* set desired image size */
-  height: 200px;
+  width: 100px;     /* set desired image size */
+  height: 100px;
   object-fit: cover; /* avoids distortion */
   position: absolute;
   top: 50%;
