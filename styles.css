@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
- 
+p{
+  color: black;
+}
 /* Body Styling with Background Image*/
 body {
   background: url('background.jpeg') no-repeat center center fixed;
