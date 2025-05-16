@@ -5,9 +5,7 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-p{
-  color: black;
-}
+.
 /* Body Styling with Background Image*/
 body {
   background: url('background.jpeg') no-repeat center center fixed;
@@ -32,7 +30,7 @@ body {
 
     ul.menu li a {
       text-decoration: none;
-      color: #333;
+      color: black;
       font-weight: bold;
     }
 
@@ -45,13 +43,13 @@ body {
   flex-direction: column;
 }
 .container img {
-  width: 100px;     /* set desired image size */
+  width: 100px;    
   height: 100px;
-  object-fit: cover; /* avoids distortion */
+  object-fit: cover; 
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* centers the image */
+  transform: translate(-50%, -50%);
 }
 
 
@@ -77,7 +75,7 @@ header {
  
 /* Navigation */
 nav {
-  background-color: #181818cc;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   padding: 10px 0;
@@ -93,6 +91,7 @@ nav a {
  
 nav a:hover {
   color: #3fa9f5;
+  text-decoration: underline;
 }
  
 /* Main Content */
@@ -101,7 +100,13 @@ main {
   max-width: 1200px;
   margin: auto;
 }
- 
+ img {
+
+border: 5px solid #4CAF50;
+
+border-radius: 10px;
+
+}
 /* Section Titles */
 h2 {
   margin-bottom: 20px;
