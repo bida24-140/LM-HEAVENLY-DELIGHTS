@@ -14,14 +14,7 @@ header {
   letter-spacing: 2px;
 }
 
-.image-gallery {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin: 2rem 0;
-}
-
-.image-gallery img {
+.bakery-image {
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -29,6 +22,7 @@ header {
   border-radius: 10px;
   background: white;
 }
+
 footer {
   background-color: hotpink;
   color: white;
