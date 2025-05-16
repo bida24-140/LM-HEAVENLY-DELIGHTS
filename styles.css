@@ -13,6 +13,16 @@ header {
   font-size: 2.5rem;
   letter-spacing: 2px;
 }
+header h1, header h2, header p:not(.icon) {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+header .icon {
+  font-weight: normal;
+  font-style: normal;
+}
 nav a { 
   color: #fff;
   margin: 0 15px;
