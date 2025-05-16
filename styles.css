@@ -31,7 +31,11 @@ nav a:hover {
   border-radius: 10px;
   background: white;
 }
-
+.image-gallery {
+  display: flex;
+  justify-content: center; 
+  gap: 2rem; 
+}
 footer {
   background-color: hotpink;
   color: white;
