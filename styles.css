@@ -22,7 +22,20 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-       
+    
+  .image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .bakery-image {
   width: 200px;
   height: 200px;
@@ -31,12 +44,14 @@ nav a:hover {
   border-radius: 10px;
   background: white;
 }
-.image-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  justify-items: center;
+
+.image-label {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: #d63384; /* a shade of pink */
+  text-align: center;
 }
+
 footer {
   background-color: hotpink;
   color: white;
@@ -47,4 +62,3 @@ footer {
   width: 100%;
   bottom: 0;
   letter-spacing: 1px;
-}
