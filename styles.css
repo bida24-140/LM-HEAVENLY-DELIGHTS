@@ -32,9 +32,10 @@ nav a:hover {
   background: white;
 }
 .image-gallery {
-  display: flex;
-  justify-content: center; 
-  gap: 2rem; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
 }
 footer {
   background-color: hotpink;
