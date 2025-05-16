@@ -29,3 +29,14 @@ header {
   border-radius: 10px;
   background: white;
 }
+footer {
+  background-color: hotpink;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 1.2rem;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  letter-spacing: 1px;
+}
