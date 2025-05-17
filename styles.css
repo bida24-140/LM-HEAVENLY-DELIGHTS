@@ -23,6 +23,10 @@ header .icon {
   font-weight: normal;
   font-style: normal;
 }
+p{
+  font-style: italic;
+  text-align: center;
+}
 nav a { 
   color: #fff;
   margin: 0 15px;
