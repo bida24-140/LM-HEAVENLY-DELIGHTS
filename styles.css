@@ -93,7 +93,12 @@ nav a:hover {
   color: #0c0c0c;
   text-align: center;
 }
-
+.go-back-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+  
 footer {
   background-color: hotpink;
   color: white;
