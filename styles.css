@@ -40,14 +40,20 @@ h2{
 .feedback-container form {
   display: flex;
   flex-direction: column;
+  max-width: 600px; 
   width: 100%;
   max-width: 400px;
+  padding: 32px;
 }
 .feedback-container label,
 .feedback-container input,
 .feedback-container textarea,
 .feedback-container button {
   margin-bottom: 10px;
+  font-size: 1.2em;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
 }
 nav a { 
   color: #fff;
