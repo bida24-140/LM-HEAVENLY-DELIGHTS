@@ -37,6 +37,18 @@ h2{
   flex-direction: column;
   align-items: center; 
 }
+.feedback-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+.feedback-container label,
+.feedback-container input,
+.feedback-container textarea,
+.feedback-container button {
+  margin-bottom: 10px;
+}
 nav a { 
   color: #fff;
   margin: 0 15px;
