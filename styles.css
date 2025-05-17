@@ -27,6 +27,11 @@ p{
   font-style: italic;
   text-align: center;
 }
+h2{
+  font-weight: bold;
+  font-style: none;
+  text-align: left;
+}
 nav a { 
   color: #fff;
   margin: 0 15px;
