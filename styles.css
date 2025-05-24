@@ -26,6 +26,7 @@ header .icon {
 p{
   font-style: italic;
   text-align: center;
+  font-weight: bold;
 }
 h2{
   font-weight: bold;
