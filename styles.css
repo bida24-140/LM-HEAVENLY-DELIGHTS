@@ -112,6 +112,11 @@ nav a:hover {
   color: #0c0c0c;
   text-align: center;
 }
+.logo {
+    height: 60px; 
+    width: auto; 
+    order: 2;
+}
 .go-back-container {
   display: flex;
   flex-direction: column;
