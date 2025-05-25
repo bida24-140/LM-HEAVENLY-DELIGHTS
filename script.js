@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const order= document.getElementById("order");
+    const orderForm= document.getElementById("orderForm");
 
     order.addEventListener("submit order", function(event) {
         event.preventDefault(); // Prevent page refresh
