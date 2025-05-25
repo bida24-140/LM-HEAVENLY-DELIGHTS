@@ -1,4 +1,4 @@
-document.getElementById("orderForm").addEventListener("submit", function(event) {
+document.getElementById("order").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent page reload
   <link rel="stylesheet" href="styles.css">
 
